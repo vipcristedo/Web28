@@ -1,0 +1,23 @@
+a{
+	color: orange;
+	text-decoration: none;
+}
+a:hover{
+	color: lightblue;
+}
+div{
+	font-size: 10px;
+	font-family: Arial Times New Roman;
+	text-align: center;
+	border-width: 1px;
+    border-style: solid;
+	border-color: grey;
+	height: 125px;
+	width: 100px;
+	padding: 5px;
+	float:left;
+	margin: 5px;
+}
+div:hover{
+	border-color: orange;
+}
