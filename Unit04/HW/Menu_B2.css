@@ -1,0 +1,148 @@
+*{
+	font-family: Arial;
+	font-size: 12px;
+}
+#main{
+	width: 1200px;
+	height: 40px;
+	background-color: #78b43d;
+	margin: 0px auto;
+	padding: 0px;
+	position: relative;
+}
+#main>ul{
+	position: relative;
+	padding: 0px;
+	list-style: none;
+}
+#main>ul>li{
+	position: relative;
+	float: left;
+}
+#main>ul>li>a{
+	position: relative;
+	padding: 0px 5px;
+	color: white;
+	line-height: 40px;
+	border-right: white solid 1px;
+	text-decoration: none;
+}
+#main ul #search{
+	line-height: 40px;
+	height: 20px;
+	width: 20px;
+	float: right;
+	margin: 0px 10px;
+}
+.bar{
+	font-size: 20px;
+	color: white;
+}
+.search{
+	padding-left:4px;
+	padding-top: 4px;
+	color: white;
+	height: 16px;
+	width: 16px;
+	border:white solid 1px;
+	border-radius: 100px;
+}
+
+#search{
+
+}
+
+.top{
+	height: 40px;
+	border-right: #90c95a solid 1px;
+}
+#main>ul>.top>a{
+	line-height: 40px;
+	border: green solid 0px;
+}
+#main>ul>li:hover{
+	cursor: pointer;
+	background-color: #609a26;
+}
+#main>ul>li:hover .menu_1{
+	display: block;
+}
+#main>ul>li:hover .menu_2{
+	display: block;
+}
+.menu_1{
+	position: absolute;
+	top: 40px; left: -86px;
+	list-style: none;
+	padding: 0px;
+	display: none;
+}
+.menu_1>li{
+	position: relative;
+}
+.menu_1>li>a{
+	display: inline-block;
+	padding: 6px 0 5px 25px;
+	width: 200px;
+		font-size: 12px;
+	color: black;
+	text-decoration: none;
+	background:#aad862 url(../images/menuDot.gif) 13px 10px no-repeat;
+	border-bottom: #78b43d solid 1px;
+}
+.menu_1>li>a:hover{
+	color: white;
+	background-color: #78b43d;
+}
+#main>ul>li>.menu_1>li:hover .daily_news{
+	display: block;
+}
+.daily_news{
+	position: absolute;
+	top: 0px;right: -182px;
+	display: none;
+	padding: 0px;
+	list-style: none;
+}
+.daily_news>li>a{
+	width: 157px;
+	padding: 6px 0px 5px 25px;
+	display: inline-block;
+	color: black;
+	text-decoration: none; 
+	background-color: #78b43d;
+	border-bottom:#aad862 solid 1px;
+}
+.daily_news>li>a:hover{
+	color: white;
+}
+.menu_2{
+	position: absolute;
+	display: none;
+	list-style: none;
+	padding: 0px;
+}
+.menu_2>li{
+	position: relative;
+}
+.menu_2>li>a{
+	display: inline-block;
+	padding: 6px 0 6px 25px;
+	width: 200px;
+		font-size: 12px;
+	color: black;
+	text-decoration: none;
+	background:#aad862 url(../images/menuDot.gif) 13px 10px no-repeat;
+	border-bottom: #78b43d solid 1px;
+}
+.menu_2>li:hover a{
+	color: white;
+	background-color: #78b43d;
+}
+#main>ul>#search:hover{
+	cursor: pointer;
+	background-color: #78b43d;
+}
+.last{
+	border: white solid 0px !important;
+}
