@@ -8,8 +8,11 @@
 	color: white;
 	padding: 1px 17px;
 	background-color: #bb1919 !important;
-	background: url(../images/tv.png) 4px 13px no-repeat;
+	background: url(../images/tv.png) 4px 8px no-repeat;
 	background-size: 10px;
+}
+#how_to_watch_title p{
+	margin: 6px 0px;
 }
 #how_to_watch_main h3{
 	margin: 2px 0px;
@@ -24,8 +27,11 @@
 	color: white;
 	padding: 1px 17px;
 	background-color: #222222 !important;
-	background: url(../images/speaker.png) 4px 13px no-repeat;
+	background: url(../images/speaker.png) 4px 8px no-repeat;
 	background-size: 10px;
+}
+#listen_live_title p{
+	margin: 6px 0px;
 }
 #listen_live_main h3{
 	margin: 2px 0px;
