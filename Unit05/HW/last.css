@@ -63,10 +63,6 @@ h3:hover{
 	cursor: pointer;
 	color: blue;
 }
-a:hover{
-	text-decoration: underline;
-	color: blue !important;
-}
 .d250:hover{
 	cursor: pointer;
 }
