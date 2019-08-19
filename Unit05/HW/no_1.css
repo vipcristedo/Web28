@@ -1,0 +1,118 @@
+.middle_main{
+	padding-top: 16px;
+}
+.d250x295{
+	width: 218px;
+	height: 295px;
+	padding:0px 16px;
+	float: left;
+}
+.d250x295 a h2{
+	margin: 0px;
+}
+#bottom{
+	clear: both;
+}
+#bottom ul{
+	padding: 0px;
+	margin: 0px;
+	list-style:none;
+}
+#bottom ul li{
+	text-indent: 0px;
+	padding: 4px 0px 4px 16px;
+	margin: 0px;
+	margin-left: 16px; 
+	width: 218px;
+	float: left;
+}
+#bottom ul li a{
+	display: inline-block;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+#bottom ul li a i{
+	display: inline-block;
+	width: 3px;
+	height: 10px;
+	color: black;
+}
+.disc{
+	background: url(../images/disc.png) 0px 10px no-repeat;
+	background-size: 5px;
+}
+.caret_right{
+	background: url(../images/caret_right.jpg) 0px 6px no-repeat;
+	background-size: 13px;
+}
+.area{
+	color: black;
+	padding-left: 7px; 
+	border-left:  #dbdbdb solid 1px;
+}
+#to_1{
+	float: left;
+	width: 750px;
+	height: 350px;
+}
+.d250x295n{
+	width: 234px;
+	height: 350px;
+	padding: 0px 0px 0px 16px;
+	float: left;
+}h3{
+	font-size: 16px;
+	margin: 8px 0px;
+}
+.d250x295n a p{
+	font-size: 13px;
+	margin: 8px 0px;
+}
+.mini{
+	width: 234px;
+}
+.high{
+	width: 484px;
+}
+.d250{
+	width: 234px;
+	padding:0px 0px 0px 16px;
+	float: left;
+}
+
+.new{
+	position: relative;
+	top:0px;
+	width: 100%;
+}
+.title_hr{
+	z-index: 1;
+	background-color: white;
+	padding: 16px;
+	position: absolute;
+	margin: 0px;
+}
+.hr{
+	position: absolute;
+	top:30px; left: 16px;
+	width: 100%;
+	height: 1px;
+	margin: 0px;
+	float: left;
+	background-color: #7b756f;
+}
+.title{
+	height: 60px;
+	width: 100%;
+	float: left;
+}
+.d500x350{
+	height: 350px;
+	width: 484px;
+	padding: 0px 0px 0px 16px; 
+	float: left;
+}
+#content a{
+	color: black;
+}
