@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>VID</title>
+	<style>
+		div{
+			position: relative;
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			animation-name: change_color;
+			animation-iteration-count: infinite;
+			animation-duration: 4s;
+		}
+		@keyframes change_color{
+			0%{
+				top:0;left: 0; background-color: red;
+			}
+			25%{
+				top:0;left: 250px; background-color: #cccccc;
+			}
+			50%{
+				top:250px;left: 250px; background-color: #dddddd;
+			}
+			75%{
+				top:250px;left: 0; background-color: #bbbbbb;
+			}
+			100%{
+				top:0;left: 0; background-color: red;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+	<div></div>
+</body>
+</html>
