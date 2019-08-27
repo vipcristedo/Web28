@@ -1,7 +1,7 @@
 #content{
 	width: 90%;
 	margin: 0 auto;
-	margin-top: 40px; 
+	margin-top: 40px;
 }
 .blank20{
 	width: 100%;
@@ -18,8 +18,9 @@
 	padding:0 1%;
 	float: left;
 	text-align: center;
+	line-height: 13px;
 }
-.section div{
+.section .inside_section{
 	background-color: white;
 	padding: 20px;
 }
@@ -89,10 +90,10 @@
 	background-color: #c9a96e;
 }
 #menu_bar{
-	margin-right: 26px;
+	margin-right: 10px;
 	position: relative;
 	float: left;
-	width: 270px;
+	width: 260px;
 }
 #menu_bar_title{
 	width: 125px;
@@ -100,6 +101,9 @@
 	position: absolute;
 	z-index: 1;
 	background-color: #e3e3e3;
+}
+#menu_bar h1{
+	margin: 0px;
 }
 .hr{
 	background-color: #c9a96e;
@@ -114,7 +118,6 @@
 #menu_bar .number{
 	color:#c5c5c5;
 	margin: 0px;
-	margin-left: 20px;
 	float: left;
 }
 #menu_bar .year{
@@ -150,18 +153,18 @@
 	width: 80%;
 }
 .blank130{
-	height: 140px;
+	height: 150px;
 	width: 100%;
 }
 #middle{
-	width: 520px;
+	width: 500px;
 	float: left;
 }
 .middle_section{
 	padding: 30px;
 	width: 250px;
 	position: relative;
-	left: 490px;top: -250px;
+	left: 450px;top: -250px;
 	text-align: center;
 	padding: 10px;
 	margin: 0px;
@@ -202,6 +205,8 @@
 	background-color: #c9a96e;
 	font-size: 14px;
 	text-align: center;
+	color: white;
+	margin-bottom: 5px; 
 }
 .vid_tag{
 	width: 100%;
@@ -213,36 +218,43 @@
 	position: absolute;
 	bottom: 0px;
 }
+.videos_footer p, h3{
+	margin: 3% 0;
+}
 .sale{
 	position: relative;
 	text-align: center;
 	width: 30.978%;
 	float: left;
-	padding: 0 20px;
+	padding: 10px 20px;
 }
 .sale_1{
-	padding: 80px 10px 0px 10px;
+	padding: 20px 10px 0px 10px;
 }
 .sale_2{
 	padding: 0px 10px 0px 10px;
 }
 .inside_sale_1{
-	height: 400px;
 	padding: 20px 20px 30px 20px;
 	background-color: white;
 }
 .inside_sale_2{
-	height: 400px;
+	position: relative;
 	background-color: white;
 	margin: 0px;
-	padding: 100px 20px 60px 20px;
+	padding: 40px 20px 60px 20px;
 }
 .number_2{
-	padding-top: 5px; 
-	width: auto;
+	padding-top: 10px; 
+	width: 100%;
 	border-top: orange solid 2px;
 }
+.width{
+	width: 100%;
+	margin-bottom: 40px; 
+}
 .border{
+	padding-bottom: 20px; 
 	border-bottom: orange solid 2px;
 }
 .sale a{
@@ -250,4 +262,249 @@
 	background-color: black;
 	color: white;
 	padding: 20px;
+}
+#most_popular{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: -30px;right: 20px;
+	color: white;
+	padding: 2%;
+	background-color: black;
+	border-radius: 50%;
+}
+#most_popular p{
+	font-size: 12px;
+	margin: 10px 0;
+}
+.img_hover{
+	overflow: hidden;
+}
+.img_hover:hover img{
+	transform:scale(1.2);
+	-webkit-transition:all 0.6s ease-out;
+}
+.product{
+	width: 22%;
+	margin:0 1% 0 1%;
+	float: left;
+}
+.products{
+	position: relative;
+	z-index: 2 !important;
+	margin-bottom: 20px; 
+	text-align: center;
+	background-color: white;
+}
+.price{
+	font-family: 'Merriweather';
+	color: #C9A96E;
+	font-size: 16px;
+	text-align: right;
+}
+.discount{
+	color: #C9A96E;
+	font-size: 14px;
+	text-decoration: line-through;
+	color:#c5c5c5;
+}
+.price_main{
+	float: right;
+}
+.product_type{
+	float: left;
+}
+.blank10{
+	clear: both;
+	width: 100%;
+	height: 10px;
+}
+.products_main{
+	padding: 0 10px;
+}
+.products_main h3{
+	font-weight: 100;
+}
+.sale_tag{
+	font-size: 11px;
+	background-color: #C9A96E;
+	color: white;
+	transform: rotate(-90deg);
+	position: absolute;
+	top: 10px; left: 0px;
+	width: 60px;
+	height: 25px;
+	z-index: 3;
+	line-height: 25px;
+}
+.sale_tag_after{
+	position: absolute;
+	background-color: #ba944e;
+	transform: rotate(45deg);
+	width: 25px;
+	height: 25px;
+	top: 0px;left: 30px;
+	z-index: -1;
+}
+#shop_now{
+	display: inline-block;
+	color: #C9A96E;
+	padding: 10px;
+	border: #C9A96E solid 1px;
+}
+#quotes{
+	text-align: center;
+	position: relative;
+	padding: 2% 20%;
+	font-size: 22px;
+	color: #C0A95E;
+	border: #C9A96E solid 1px;
+}
+#quotes_title{
+	position: absolute;
+	background-color: #e3e3e3;
+	width: 6%;
+	height: 16%;
+	line-height: 0px;
+	font-size: 80px;
+	padding: 0;
+	top:-8%; left: 47%;
+	color:#c5c5c5;
+}
+.quotes_img img{
+	border-radius: 50%;
+	overflow: hidden;
+}
+.quotes_name{
+	display: inline-block;
+	padding: 10px 0;
+	color: black;
+}
+.quotes_name:hover{
+	color: #C9A96E;	
+}
+#our_team{
+	border-top: #c5c5c5 double 10px;
+	text-align: center;
+	position: relative;
+	padding-top: 10%;
+}
+#our_team_title{
+	width: 30%;
+	position: absolute;
+	top: -10%;left:35% ;
+	background-color: #e3e3e3;
+}
+.employees{
+	width: 20%;
+	padding: 1%;
+	padding-top: 30px;
+	margin: 0 1%;
+	background-color: white;
+	float: left;
+}
+.author{
+	padding: 20px;
+	border: #C9A96E solid 1px;
+}
+.icon{
+	margin: 0 5px;
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	font-size: 13px;
+	line-height: 32px;	
+	color: #C9A96E;
+	float: left;
+	border: #C9A96E solid 2px;
+	border-radius: 50%;
+}
+#icon{
+	width: 184px;
+	margin: 0 auto;
+}
+.fb:hover{
+	color: blue;
+	border-color: blue;
+	cursor: pointer;
+}
+.tw:hover{
+	color: lightblue;
+	border-color: lightblue;
+	cursor: pointer;
+}
+.in:hover{
+	color: blue;
+	border-color: blue;
+	cursor: pointer;
+}
+.gg:hover{
+	color: red;
+	border-color: red;
+	cursor: pointer;
+}
+#footer_main{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#footer{
+	background-color: black;
+}
+.part{
+	position: relative;
+	width: 20%;
+	margin: 0 1%;
+	float: left;
+}
+.part #menu_bar_title{
+	background-color: black;
+	color: white;
+}
+.inside_part_1{
+	float: left;
+	width: 46%;
+	margin: 0 2%;
+}
+.inside_part_2{
+	position: relative;
+}
+.aquarter{
+	width: 20%;
+	margin: 0 1%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	border: black solid 2px;
+	border-radius: 10px;
+}
+.aquarter img{
+	position: relative;
+	border-radius: 10px;	
+}
+#footer p,h2{
+	color: white;
+}
+.part a{
+	color: white;
+}
+.part a:hover{
+	color: #C9A96E;
+}
+#footer_last{
+	background-color: #111111;
+	text-align: center;
+}
+.employees:hover img{
+	transform: scale(1.2);
+	-webkit-transition:all 0.6s ease-out;
+}
+.aquarter:hover img{
+	transform: scale(0.95);
+	-webkit-transition:all 0.6s;
+	cursor: hover;
+}
+.aquarter:hover{
+	-webkit-transition:all 0.6s;
+	border: #C9A96E solid 2px;
 }

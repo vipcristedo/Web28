@@ -2,13 +2,8 @@
 	#content{
 		width: 1130px !important;
 	}
-	#inside{
-		width: 1008px;
-		margin: 0 auto;
-	}
 }
-@media only screen and (max-width: 1118px){
-
+@media only screen and (max-width: 1100px){
 	.section{
 		width: 100%;
 		clear: both;
@@ -27,11 +22,6 @@
 		width: 100%;
 	}
 }
-@media only screen and (max-width: 905px) and (min-width: 769px){
-	#li_3{
-		display: none;
-	}
-}
 @media only screen and (max-width: 973px){
 	#videos{
 		width: 90% !important;
@@ -42,17 +32,24 @@
 	#bg_2,#bg_3,#bg_4{
 		display: none;
 	}
+	.menu_2{
+		display: none;
+	}
 }
 @media only screen and (max-width: 960px){
 	#banner{
 		padding-right: 10px !important;
+	}
+	.employees{
+		width: 100%;
+		clear: both;
 	}
 	.sale{
 		position: relative;
 		text-align: center;
 		width: 100%;
 		float: left;
-		padding: 0;
+		padding: 20px 0 0 0;
 	}
 	.sale_1{
 		margin: 10px auto;
@@ -76,16 +73,28 @@
 	#main_menu{
 		display: none;
 	}
+	.blank_menu{
+		display: none;
+	}
 	#list{
 		display: inline-block;
 	}
 }
-@media only screen and (max-width: 768px) and (min-width: 481px ){
+@media only screen and (max-width: 668px){
 	
 }
 @media only screen and (max-width: 768px){
-	#menu_2 ul li{
-		display: none;
+	.product{
+		width: 100%;
+		clear: both;
+	}
+	.inside_part_1{
+		width: 70%;
+		clear: both;
+	}
+	.part{
+		width: 100%;
+		clear: both;
 	}
 	#box{
 		display: none;
@@ -113,4 +122,15 @@
 	#banner{
 		padding: 0px !important;
 	}
-}		
+	#menu_2 ul{
+		display: none;
+	}
+}
+@media only screen and (max-width: 605px){
+	#menu_title{
+		font-size: 40px;
+	}
+	#inside .date{
+		display: none;
+	}
+}
