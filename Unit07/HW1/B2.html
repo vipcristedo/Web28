@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>B2</title>
+</head>
+<body>
+	<script>
+		function tinhTong(n){
+			do{
+				var n = prompt('Mời bạn nhập vào số nguyên n');
+				if (n<=0||Number.isInteger(Number(n))==false||isNaN(n)==true) {alert('n phải là số nguyên dương');}
+			}while(n<=0||Number.isInteger(Number(n))==false||isNaN(n)==true);
+			var tong=0;
+			for (var i = 1; i <=n; i++) {
+				tong=tong+i;
+			}
+			alert('Tổng ='+tong);
+			return tong;
+		}
+		tinhTong();
+	</script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+#my_services_main ul li{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.my_services_icon{
+	color: white;
+	background-color: #505cfd;
+	border-radius: 50%;
+	margin: 0 auto;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	font-size: 25px;
+}
+.my_services_part{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #f6f7fe;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px #0000009e;
+}
+#part_1{
+	background-color: #f6f7fe;
+	padding: 50px 0;
+}
+#part_1 ul li{
+	width: 25%;
+	float: left;
+}
+.part_1_inside{
+	width: 70%;
+	padding: 5% 0;
+	margin: 0 auto;
+	border: #505cfd dashed 2px;
+	border-radius: 5px;
+	text-align: center;
+}
+.part_1_inside i{
+	font-size: 25px;
+	color: #505cfd;
+}
+#recent_works_main_1 ul{
+	width: 600px;
+	padding: 0;
+	margin: 0 auto;
+}
+#recent_works_main_1 ul li{
+	float: left;
+	margin: 5px;
+}
+.recent_works_tag{
+	color: #505cfd;
+	padding: 3px 20px;
+	border-radius: 100px;
+	border: #505cfd solid 1px;
+}
+.first{
+	color: white;
+	background-color: #505cfd;
+}
+.recent_works_tag:hover{
+	color: white;
+	background-color: #505cfd;
+}
+#recent_works_main_2 ul li{
+	display: inline-block;
+	font-size: 0px;
+	font-family: none;
+	padding: 0;
+	float: left;
+	width: 50%;
+	height: auto;
+}
+#lastest_news_main ul li{
+	width: 30%;
+	float: left;
+	margin: 0 1.6666%;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0px 0px 40px #0000009e;
+}
+.lastest_news_img{
+	position: relative;
+	font-family: none;
+	font-size: 0;
+}
+.lastest_news_img p{
+	position: absolute;
+	bottom: 0;left: 5%;
+	background-color: #505cfd;
+	color: white;
+	padding: 0 10px;
+	font-family: Mukta;
+	font-size: 16px;
+	width: 30px;
+	text-align: center;
+}
+.lastest_news_main{
+	width: 90%;
+	margin: 0 5%;
+}
+.day{
+	background-color: black;
+	color: white;
+	width: 30px;
+	text-align: center;
+	padding: 0 10px;
+}
+.read_more{
+	color: black;
+	padding: 0 0 2px 0;
+}
+.read_more:hover{
+	padding: 0;
+	color: #505cfd;
+	border-bottom:#505cfd solid 2px;
+}
+.lastest_news_footer{
+	color: white;
+	padding: 10px 0;
+	background-color: #505cfd;
+	text-align: center;
+}
+#contact{
+	background-color: #f6f7fe;
+	padding: 20px 0;
+}
+#contact_main li{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+#contact_main li i{
+	color: #505cfd;
+	font-size: 40px;
+}
+#message_main{
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+.half1{
+	width: 45%;
+	margin: 1%;
+}
+.full_100{
+	width: 92%;
+}
+#footer{
+	background-color: #f6f7fe;
+	text-align: center;
+}
+#footer i{
+	color: #505cfd;
+}

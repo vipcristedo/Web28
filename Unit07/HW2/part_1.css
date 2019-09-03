@@ -1,0 +1,178 @@
+*{
+	font-family: Mukta;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+p{
+	margin: 0;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+h1{
+	margin: 0px;
+	display: inline-block;
+	padding: 0;
+	padding-right: 5px;
+	font-size: 60px;
+	text-indent: 0;
+}
+.blank{
+	width: 100%;
+	height: 20px;
+	clear: both;
+}
+.blank10{
+	width: 100%;
+	height: 10px;
+	clear: both;
+}
+.blue{
+	color: #505cfd;
+}
+#main{
+	width: 100%;
+}
+#banner{
+	
+	position: relative;
+}
+.img{
+	width: 100%;
+}
+.main{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	background-color: #ffffffa1;
+	top: 0;
+	height: 100%;
+}
+.main_inside{
+	width: 90%;
+	margin: 0 auto;
+}
+#menu{
+	position: absolute;
+	top: 5%; right: 5%;
+}
+#menu ul{
+	padding: 0;
+}
+#menu ul li{
+	float: left;
+}
+#menu ul li a{
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+}
+.title{
+	position: absolute;
+	top: 5%;left: 5%;
+	font-weight: bold;
+}
+#banner_content{
+	position: absolute;
+	top: 40%;
+}
+h1 p{
+	display: inline-block;
+	padding-left: 5px;
+}
+h2 p{
+	display: inline-block;
+}
+.half{
+	width: 50%;
+	float: left;
+}
+.half_img{
+	box-shadow: 0px 0px 15px #0000009e;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: none;
+	font-size: 0;
+}
+.download_cv{
+	padding: 10px;
+	border-radius: 100px;
+	background-color: #505cfd;
+	color: white;
+	font-weight: bold;
+}
+.part{
+	position: relative;
+}
+#my_skills{
+	background-color: #f6f7fe;
+}
+#part_bg{
+	color: #ebecf8;
+	font-size: 130px;
+	font-weight: 900;
+}
+#part_bg p{
+	width: 100%;
+	text-align: center;
+}
+#part_title{
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	line-height: 234px;
+	top: 0;left: 0;
+	width: 100%;
+}
+#my_skills_main ul li{
+	width: 33.33%;
+	float: left;
+}
+.skills_point{
+	width: 90%;
+	padding: 5%;
+}
+.line{
+	position: relative;
+}
+.void{
+	position: absolute;
+	top: 0;left: 0;
+	width: 100%;
+	height: 10px;
+	border-radius: 300px;
+	background-color:#d5d6dcc7;
+}
+.full{
+	position: absolute;
+	top: 0;left: 0;
+	height: 10px;
+	border-radius: 300px;
+	background-color: #4f5bfd;
+	z-index: 1;
+}
+.full_97{
+	width: 97%;
+}
+.full_88{
+	width: 88%;
+}
+.full_91{
+	width: 91%;
+}
+.full_83{
+	width: 83%;
+}
+.full_77{
+	width: 77%;
+}
+.full_86{
+	width: 86%;
+}
+.point{
+	float: right;
+}

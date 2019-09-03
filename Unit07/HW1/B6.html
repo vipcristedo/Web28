@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>B6</title>
+</head>
+<body>
+	<script>
+		function tinhTong(){
+			do{
+				var n = prompt('Mời bạn nhập vào số nguyên n');
+				if (n<=0||Number.isInteger(Number(n))==false||isNaN(n)==true) {alert('n phải là số nguyên dương');}
+			}while(n<=0||Number.isInteger(Number(n))==false||isNaN(n)==true);
+			var dem=0;
+			var tong=0;
+			var num = new Array();
+			for (var i = 0; i < n; i++) {
+				num[i]= prompt('Mời bạn nhập vào số nguyên thứ '+(i+1));
+				if (dem<10&&num[i]%2==0) {
+					tong=tong+Number(num[i]);
+					dem++;
+				}
+			}
+			alert('Tổng '+dem+' số chẵn đầu tiên = '+tong);
+			return tong;
+		}
+		tinhTong();
+	</script>
+</body>
+</html>

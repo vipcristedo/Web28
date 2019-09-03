@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>B4</title>
+</head>
+<body>
+	<script>
+		function dem1(a,b){
+			var dem = 0;
+			do{
+				var N=0;
+				var tg = prompt('Mời bạn nhập vào số nguyên N');
+				N=tg;
+				if (Number.isInteger(Number(N))==false||isNaN(N)==true) {
+					alert('N phải là số nguyên');
+				}
+			}while(Number.isInteger(Number(N))==false||isNaN(N)==true);
+			do{
+				var M = prompt('Mời bạn nhập vào số nguyên M');
+				if (Number.isInteger(Number(M))==false||isNaN(M)==true) {alert('M phải là số nguyên');}
+			}while(Number.isInteger(Number(M))==false||isNaN(M)==true);
+			do{
+				var K = prompt('Mời bạn nhập vào số nguyên K');
+				if (Number.isInteger(Number(K))==false||isNaN(K)==true) {alert('K phải là số nguyên');}
+			}while(Number.isInteger(Number(K))==false||isNaN(K)==true);
+			if (M<N) {
+				var tg;
+				tg=M;
+				M=N;
+				N=tg;
+			}
+			for (var i = N; i < M; i++) {
+				if(i%K==0){dem=dem+1;}
+			}
+			if (N%K==0){dem=dem-1;}
+			alert('Trong ('+N+','+M+') có '+dem+' số chia hết cho '+K);
+			return dem;
+		}
+		dem1();
+	</script>
+</body>
+</html>

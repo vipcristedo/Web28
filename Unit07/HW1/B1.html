@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>B1</title>
+</head>
+<body>
+	<script>
+		function dem1(a,b){
+			var dem = 0;
+			do{
+				var a=0;
+				var tg = prompt('Mời bạn nhập vào số nguyên a');
+				a=tg;
+				if (Number.isInteger(Number(a))==false||isNaN(a)==true) {
+					alert('a phải là số nguyên');
+				}
+			}while(Number.isInteger(Number(a))==false||isNaN(a)==true);
+			do{
+				var b = prompt('Mời bạn nhập vào số nguyên b');
+				if (Number.isInteger(Number(b))==false||isNaN(b)==true) {alert('b phải là số nguyên');}
+			}while(Number.isInteger(Number(b))==false||isNaN(b)==true);
+			if (b<=a) {
+				var tg;
+				tg=b;
+				b=a;
+				a=tg;
+			}
+			for (var i = a; i <= b; i++) {
+				if(i%3==0||i%7==0){dem++;}
+			}
+			alert('Trong ['+a+','+b+'] có '+dem+' số chia hết cho 3 hoặc 7');
+			return dem;
+		}
+		dem1();
+	</script>
+</body>
+</html>
