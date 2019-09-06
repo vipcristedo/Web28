@@ -1,0 +1,7 @@
+table tr td{
+	padding: 10px;
+	background-color: #afbcdc;
+}
+tr:hover td{
+	background-color: #4bdc67;
+}

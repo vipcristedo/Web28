@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="the_p1"> thẻ p1</p>
+	<p class="the_p2">thẻ p2-first</p>
+	<p class="the_p2">thẻ p2-last</p>
+	<h1>DOM H1</h1>
+	<img src="../Unit07/images/portfolio2.jpeg" alt="">
+	<script>
+		document.getElementById('the_p1').style.color = 'red';
+		document.getElementsByClassName('the_p2')[0].style.color = "blue";
+		document.getElementsByTagName('p')[2].style.color = "yellow";
+
+		var text =  document.getElementById('the_p1').innerHTML;
+		document.getElementsByClassName('the_p2')[0].innerHTML = 'Thay đổi thẻ p2- first';
+
+		var src = document.getElementsByTagName('img')[0].src;
+		console.log(src);
+		var scr = document.getElementsByTagName('img')[0].src='../Unit06/images/bg.jpg';
+		document.getElementsByTagName('h1')[0].style.color='red';
+		document.getElementsByTagName('h1')[0].style.fontSize='30px';
+		var colorH1 = document.getElementsByTagName('h1')[0].style.color;
+		console.log(colorH1);
+	</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+#main{
+	padding: 10px 50px 0px 10px;
+	width: 600px;
+	height: 220px;
+	background-color: brown;
+}
+button{
+	padding: 5px;
+	background-color: #666666;
+	color: white;
+	margin-right: 5px;
+	border: 0px;
+}
+#tab1{
+	background-color: white;
+	color: black;
+}
+button:hover{
+	cursor: pointer;
+}
+.section{
+	padding: 20px;
+	clear: both;
+	background-color: white;
+}
+button:focus{
+	outline: none;
+}
+#section_1{
+
+}
+#section_2{
+	display: none;
+}
+#section_3{
+	display: none;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+h2{
+	margin: 0px;
+	display: inline-block;
+}
+ul li{
+	float: left;
+}

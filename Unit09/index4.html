@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>thẻ input_text</title>
+</head>
+<body>
+	<input type='text' onfocus="changeBGC()" onblur="changeBGC2()">
+	<script>
+		var input = document.getElementsByTagName('input')[0]; 
+		function changeBGC(){
+			input.style.background='red';
+		}
+		function changeBGC2(){
+			input.style.background='blue';
+		}
+	</script>
+</body>
+</html>
