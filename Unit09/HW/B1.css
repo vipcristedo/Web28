@@ -3,6 +3,7 @@
 	width: 600px;
 	height: 220px;
 	background-color: brown;
+	position: relative;
 }
 button{
 	padding: 5px;
@@ -22,6 +23,11 @@ button:hover{
 	padding: 20px;
 	clear: both;
 	background-color: white;
+	clear: both;
+	width: 80%;
+	top: 35px;
+	position: absolute;
+	left: 10px;
 }
 button:focus{
 	outline: none;

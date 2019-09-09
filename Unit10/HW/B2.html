@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>B2</title>
+	<link rel="stylesheet" href="B2.css">
+</head>
+<body>
+	<div>
+		<form action="" onsubmit="return send()">
+			<table id="table_1">
+				<tr>
+					<td>Họ và tên</td>
+					<td>
+						<input type="text" class="nhap" placeholder="Nhập họ và tên..." id="hoTen">
+						<span class="error"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>Giới tính</td>
+					<td>
+						<input type="radio" name="gender">Nam
+						<input type="radio" name="gender">Nữ
+					</td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>
+						<input type="email" class="nhap" placeholder="Nhập email..." id="email">
+						<span class="error"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>Số điện thoại</td>
+					<td><input type="text" class="nhap" placeholder="Nhập số điện thoại..." id="sDT"> <span class="error"></span></td>
+				</tr>
+				<tr>
+					<td>Mật khẩu</td>
+					<td><input type="password" class="nhap" id="password"> <span class="error"></span></td>
+				</tr>
+				<tr>
+					<td>Xác nhận mật khẩu</td>
+					<td><input type="password" class="nhap" id="passwordConfirm"> <span class="error"></span></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table id="table_2">
+						<tr>
+							<td>
+								<input type="Submit" value="Đăng kí" id="submit" class="no">
+							</td>
+							<td>
+								<input type="button" value="Xóa trắng" id="clear" class="no">
+							</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+			
+		</form>
+	</div>
+	
+	<script src="B2.js"></script>
+</body>
+</html>
