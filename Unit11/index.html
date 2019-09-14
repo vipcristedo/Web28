@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<p id="thep">Thẻ p</p>
+	<p id="thep2">Thẻ p2</p>
+	<h1>Thẻ h1</h1>
+	<ul>
+		<li class="mb">Hà Nội</li>
+		<li class="mb">Hải phòng</li>
+		<li>Nghệ An</li>
+	</ul>
+	<input type="text" id="name">
+
+	<script>
+		$(document).ready(function(){
+			var p = $('#thep').text("");
+			$('#thep').text("<b>Hello</b>");
+			$("#thep2").html("<b>Hello</b>");
+			$("#name").val("Hello input");
+			//alert($("#name").val());
+			$(".mb").css({"color":"red", "font-size":"20px"});
+			// alert($("ul").width());
+			// alert($("ul").height());
+			$("#thep").remove();
+			$("#thep2").empty();
+			$("h1").prepend("Đây là");
+			$("h1").append("A hihi");
+			
+
+		});
+	</script>
+</body>
+</html>

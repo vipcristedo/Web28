@@ -1,0 +1,52 @@
+#main{
+	width: 50%;
+	margin: 0 auto;
+}
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 5px;
+}
+ul li{
+	position: relative;
+	font-size: 19px;
+	background-color: #484848;
+	color: white;
+	padding: 20px 30px;
+	border: black outset 1px;
+}
+ul li:hover{
+	cursor: pointer;
+}
+.section{
+	display: none;
+	padding: 20px 30px;
+	background-color: #484848;
+}
+.section p{
+	margin: 0px;
+	color: white;
+}
+.active{
+	display: block;
+}
+.cong{
+	position: absolute;
+	top: 15px;
+	left: -15px;
+	background-color: #9be31d;
+	color: #83a628;
+	height: 50%;
+	text-align: center;
+	padding: 0 10px;
+	line-height: 30px;
+	border-radius: 5px;
+	border: black outset 1px;
+	font-weight: bold;
+	font-family: Arial Black;
+	letter-spacing: -1px;
+}
+p{
+	margin: 0px;
+}

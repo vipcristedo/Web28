@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>B1</title>
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" href="B1.css">
+</head>
+<body>
+	<div id="main">
+		<ul>
+		
+			<li>
+				This is an expanded panel
+				<div class="cong"><p>+</p></div>
+			</li>
+
+			<div class="section"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic illum quis facilis quos dicta voluptate aspernatur molestiae facere, quisquam qui ex dolorum commodi aliquam veniam iusto voluptas asperiores veritatis reiciendis, earum harum. Ratione blanditiis eum facere distinctio quod, laudantium quis.</p></div>
+		
+			<li>
+				Second Panel
+				<div class="cong"><p>+</p></div>
+			</li>
+
+			<div class="section"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic illum quis facilis quos dicta voluptate aspernatur molestiae facere, quisquam qui ex dolorum commodi aliquam veniam iusto voluptas asperiores veritatis reiciendis, earum harum. Ratione blanditiis eum facere distinctio quod, laudantium quis.</p></div>
+		
+			<li>
+				Third Panel
+				<div class="cong"><p>+</p></div>
+			</li>
+
+			<div class="section"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic illum quis facilis quos dicta voluptate aspernatur molestiae facere, quisquam qui ex dolorum commodi aliquam veniam iusto voluptas asperiores veritatis reiciendis, earum harum. Ratione blanditiis eum facere distinctio quod, laudantium quis.</p></div>
+		
+			<li>
+				Fourth Panel
+				<div class="cong"><p>+</p></div>
+			</li>
+
+			<div class="section"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic illum quis facilis quos dicta voluptate aspernatur molestiae facere, quisquam qui ex dolorum commodi aliquam veniam iusto voluptas asperiores veritatis reiciendis, earum harum. Ratione blanditiis eum facere distinctio quod, laudantium quis.</p></div>
+		</ul>
+	</div>
+	<script>
+		$(function(){
+			$("li:eq(0)").on('click',function(){
+				$('.section:gt(0),.section:lt(0)').removeClass('active');
+				$("li:eq(0)").next().toggleClass('active');
+				$('.cong:gt(0),.cong:lt(0)').text('+');
+				if($(" .cong:eq(0)").text()=="--"){
+					$(" .cong:eq(0)").text("+")
+				}else{
+					$(" .cong:eq(0)").text("--")
+				}
+			})
+			$("li:eq(1)").on('click',function(){
+				$('.section:gt(1),.section:lt(1)').removeClass('active');
+				$("li:eq(1)").next().toggleClass('active');
+				$('.cong:gt(1),.cong:lt(1)').text('+');
+				if($(" .cong:eq(1)").text()=="--"){
+					$(" .cong:eq(1)").text("+")
+				}else{
+					$(" .cong:eq(1)").text("--")
+				}
+			})
+			$("li:eq(2)").on('click',function(){
+				$('.section:gt(2),.section:lt(2)').removeClass('active');
+				$("li:eq(2)").next().toggleClass('active');
+				$('.cong:gt(2),.cong:lt(2)').text('+');
+				if($(" .cong:eq(2)").text()=="--"){
+					$(" .cong:eq(2)").text("+")
+				}else{
+					$(" .cong:eq(2)").text("--")
+				}
+			})
+			$("li:eq(3)").on('click',function(){
+				$('.section:gt(3),.section:lt(3)').removeClass('active');
+				$("li:eq(3)").next().toggleClass('active');
+				$('.cong:gt(3),.cong:lt(3)').text('+');
+				if($(" .cong:eq(3)").text()=="--"){
+					$(" .cong:eq(3)").text("+")
+				}else{
+					$(" .cong:eq(3)").text("--")
+				}
+			})
+		})
+	</script>
+</body>
+</html>

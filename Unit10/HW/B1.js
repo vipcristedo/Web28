@@ -1,4 +1,5 @@
 var arr = new Array();
+var flag = false;
 var li_1 = document.getElementsByTagName('li');
 var img_1 =  document.getElementsByTagName('img');
 for (var i = 0; i < document.getElementsByTagName('li').length; i++) {
@@ -32,6 +33,7 @@ function chuyenTrai(){
 	img_1[viTriHienSlide-1].classList.add("see");
 }
 function chuyenPhai(){
+    
 	var viTriHienSlide = 0;
 	var slideHienTai = document.getElementsByClassName('active')[0];
 	for (var i = 0; slideHienTai = slideHienTai.previousElementSibling; viTriHienSlide++) {
@@ -45,7 +47,12 @@ function chuyenPhai(){
 	}
 	li_1[viTriHienSlide+1].classList.add("active");
 	img_1[viTriHienSlide+1].classList.add("see");
+    
+	
 }
+
+
 document.getElementById('left').addEventListener('click',chuyenTrai);
 document.getElementById('right').addEventListener('click',chuyenPhai);
-var slideShow = setInterval(chuyenPhai,10000)
+
+var slideShow = setInterval(chuyenPhai,2000)
