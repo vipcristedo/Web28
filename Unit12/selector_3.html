@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selector</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique incidunt perspiciatis officiis, laudantium modi dicta doloribus. Ad accusantium sed consequatur.</p>
+	</div>
+	<div class="change">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique incidunt perspiciatis officiis, laudantium modi dicta doloribus. Ad accusantium sed consequatur.</p>
+	</div>
+	<div class="change">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique incidunt perspiciatis officiis, laudantium modi dicta doloribus. Ad accusantium sed consequatur.</p>
+	</div>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique incidunt perspiciatis officiis, laudantium modi dicta doloribus. Ad accusantium sed consequatur.</p>
+	</div>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique incidunt perspiciatis officiis, laudantium modi dicta doloribus. Ad accusantium sed consequatur.</p>
+	</div>
+	<script>
+		$(function(){
+			$("div").filter(".change").css({"background-color":"blue"});
+			$("div").not(".change").css({"background-color":"yellow"});
+			$("div").first().css({"background-color":"red"});
+			$("div").last().css({"background-color":"grey"});
+			$("div:eq(2)").css({"background-color":"green"});
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selector</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<style>
+		
+	</style>
+</head>
+<body>
+	<p>The p1</p>
+	<p class="thep2">The p2</p>
+	<h2>the h2</h2>
+	<p>The p3</p>
+	<p>The p4</p>
+	<script>
+		$(function(){
+			$("h2").next().css({"color":"red"});
+			$("h2").prev().css({"color":"yellow"});
+			$("h2").siblings().css({"color":"blue"});
+			$("h2").siblings(".thep2").css({"color":"red"});
+		})
+	</script>
+</body>
+</html>

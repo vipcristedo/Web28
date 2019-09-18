@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selector</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<style>
+		*{
+			border: 2px solid grey;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	Body
+	<div>
+		div
+		<ul>
+			ul
+			<li>
+				li
+				<p>p</p>
+			</li>
+		</ul>
+	</div>
+	<script>
+		$(function(){
+			$("p").parent().css({"border-color":"red"});
+			$("p").parents().css({"border-color":"red"});
+			$("p").parentsUntil().css({"border-color":"red"});
+			$("div").find("li").css({"border-color":"red"});
+			$("p").children().css({"border-color":"red"});
+		})
+	</script>
+</body>
+</html>
