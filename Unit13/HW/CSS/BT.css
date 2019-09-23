@@ -1,0 +1,153 @@
+*{
+	font-family: Arial;
+}
+p{
+	font-size: 14px;
+	margin: 14px 0;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+a:hover{
+	text-decoration: none;
+	color: #f05f40;
+}
+ul{
+	list-style: none;
+}
+h1{
+	font-weight: bold;
+}
+.hr{
+	clear: both;
+	margin: 10px auto;
+	height: 2px;
+	width: 40px;
+}
+.hr1{
+	background-color: #f05f40;
+}
+.hr2{
+	background-color: white;
+}
+.white{
+	color: white;
+}
+.orange{
+	color: #f05f40;
+	font-weight: 600;
+}
+.grey{
+	color: #bec1c6;
+}
+.width_70{
+	padding: 0 15%;
+}
+.width_100{
+	width: 100%;
+}
+.icon{
+	font-size: 50px;
+}
+#top2{
+	display: none;
+}
+#top{
+	padding: 0px;
+	position: relative;
+	background-size: cover;
+	background: url(../images/bg-masthead.jpg) no-repeat top center;
+}
+#top_main{
+	padding: 10px 0;
+	width: 100%;
+	background: linear-gradient(to bottom, black,#0000005c);
+}
+#top_content{
+	padding: 7%;
+	text-align: center;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.a_border{
+	font-size: 14px;
+	border-radius: 100px;
+	padding: 10px 20px;
+	font-weight: 600;
+}
+.pad_5{
+	padding: 5px 0;
+}
+#title{
+	padding: 10px 20px;
+}
+#title_top{
+	padding: 10px 20px;
+}
+#top_menu ul li a:hover{
+	background-color:#f05f40;
+	color: white;
+}
+.bg_orange{
+	background: linear-gradient(to bottom, #f05f40,#c92e2e);
+	color: white;
+	border: #c92e2e solid 1px;
+}
+.bg_orange:hover{
+	background: linear-gradient(to top, #f05f40,#c92e2e);
+	color: white;
+}
+.bg_white{
+	background: linear-gradient(to bottom, white,#b8a2a2);
+	color: black;
+	border: #b8a2a2 solid 1px;
+}
+.bg_white:hover{
+	background: linear-gradient(to top, white,#b8a2a2);
+	color: black;
+}
+#content_1{
+	padding: 50px 0;
+	text-align: center;
+	background-color: #f05f40;
+}
+#list{
+	padding: 10px;
+}
+.list:hover{
+	color: black;
+}
+#content_2{
+	text-align: center;
+	padding: 50px 0;
+}
+.image{
+	width: 100%;
+	height: 100%;
+}
+.no{
+	padding: 0px;
+	border: #bec1c6 solid 1px;
+}
+#content_3{
+	background-color: black;
+	text-align: center;
+}
+#content_3_main{
+	padding: 50px 0;
+}
+#content_3 h3{
+	color: white;
+}
+#footer{
+	text-align: center;
+	padding: 50px 0;
+}

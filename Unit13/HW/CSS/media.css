@@ -1,0 +1,8 @@
+@media only screen and (max-width: 768px){
+	#top_menu,#title{
+		display: none;
+	}
+	#top2{
+		display: block;
+	}
+}
