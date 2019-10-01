@@ -1,0 +1,81 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.11.2/css/pro.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<script>
+		new WOW().init();
+	</script>
+	<link rel="stylesheet" href="../css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+	<script src="../js/owl.carousel.min.js"></script>
+	<style>
+		body{
+			background-color: yellow;
+		}
+		.container{
+			overflow: hidden;
+		}
+		.item{
+			background-color: red;
+			width: 100px;
+			height: 100px;
+		}
+		.owl-dots{
+			position: absolute;
+      z-index: 100 !important;
+			top: 100px;
+			left: 50px;
+		}
+    .owl-item{
+      width: 200px;
+    }
+	</style>
+</head>
+<body>
+	<div class="container">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="owl-carousel owl-theme">
+            <div class="item no">
+              <img src="../images/dr1.png" alt="" width="100%">
+            </div>
+            <div class="item no">
+              <img src="../images/dr2.png" alt="" width="100%">
+            </div>
+            <div class="item no">
+              <img src="../images/dr3.png" alt="" width="100%">
+            </div>
+            <div class="item no">
+              <img src="../images/dr4.png" alt="" width="100%">
+            </div>
+          </div>
+          <a class="">no</a>
+          <a class="">no</a>
+          <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                animateOut: 'slideOutDown',
+                animateIn: 'flipInX',
+                items: 1,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true
+              });
+            })
+          </script>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
